@@ -8,17 +8,15 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 }
 
 #wrapper{
-	width: 80%;
-	background-color: #FFFFFF;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
+	background-color: #90c4e4;
 }
 
 body {
 	margin: auto;
+	min-width: 600px;
+	width: 80%;
 	background-image: url(ptrbackground.jpg);
-	background-color: #00569f;
+	background-color: #00579f;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,23 +32,26 @@ li a {
 }
 
 #content{
-	margin-left: 270px;
-	width: 100%;
-	height: 100%;
+	background-color: #FFFFFF;
+	margin-left: 200px;
+	width: 90%;
+}
+img{
+	float: left;
+ 	padding: 0 20px 20px 0;
+}
+#content ul{
+	list-style-image: url(marker.gif);
 }
 
-#content ul li{
-	background-image: url(marker.gif);
-	background-repeat: no-repeat;
-	padding-left: 15px;
+p{
+	width: 800px;
 }
-
 
 nav ul {
 	float: left;
 	font-size: 1.2em;
 	font-weight: bold;
-	background-color:#90c4e4;
 	width: 200px;
 	margin: auto;
 }
@@ -74,9 +75,10 @@ h1 {
 	padding: 10px;
 }
 
-
 h2 {
 	color: #3399CC;
+	margin-top: 0;
+	padding-top: 10px;
 }
 h1,
 h2 {
@@ -84,13 +86,16 @@ h2 {
 }
 #contact {
 	font-size: 90%;
+	
 }
 dt {
 	color: #000033;
 }
 footer {
-	margin-left: 270px;
-	width: 50%;
+	background-color: #FFFFFF;
+	margin-left: 200px;
+	padding: 45px;
+	width: 90%;
 	font-family: Georgia, "Times New Roman", serif;
 }
 
