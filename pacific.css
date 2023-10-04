@@ -33,8 +33,13 @@ li a {
 
 #content{
 	background-color: #FFFFFF;
-	margin-left: 200px;
-	width: 90%;
+	/* margin-left: 200px;
+	margin-right: -2000px;
+	width: 100%;
+	min-width: 300px; */
+	margin-left: 180px;
+  	padding-left: 30px;
+  	margin-top: 0px;
 }
 img{
 	float: left;
@@ -42,10 +47,13 @@ img{
 }
 #content ul{
 	list-style-image: url(marker.gif);
+	min-width: 250px;
+	width: 70%;
 }
 
 p{
-	width: 800px;
+	min-width: 300px;
+	width: 70%;
 }
 
 nav ul {
@@ -86,6 +94,7 @@ h2 {
 }
 #contact {
 	font-size: 90%;
+	padding-left: 20px;
 	
 }
 dt {
@@ -93,9 +102,9 @@ dt {
 }
 footer {
 	background-color: #FFFFFF;
-	margin-left: 200px;
-	padding: 45px;
-	width: 90%;
+	margin-left: 180px;
+	padding: 20px;
+	/* width: 90%; */
 	font-family: Georgia, "Times New Roman", serif;
 }
 
