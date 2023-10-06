@@ -1,3 +1,13 @@
+/* 
+File: pacific.css
+GUI Assignment: Style a Site with External CSS 
+Michael Chagnon, UMass Lowell Computer Science,
+michael_chagnon@student.uml.edu
+Copyright (c) 2021 by Michael. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Created by MC on Oct 6, 2023
+Description: A website about a resort styled with css 
+*/
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
@@ -11,8 +21,8 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	background-color: #90c4e4;
 }
 
-body {
-	margin: auto;
+body {	/*Determines characteristics for background such as the image and color below the image.*/
+	margin: auto;	/*Also sets the margins for the main block to be centered */
 	min-width: 600px;
 	width: 80%;
 	background-image: url(ptrbackground.jpg);
@@ -21,7 +31,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-li{
+li{		/*The following li and li a sections style the list elements and get rid of the underline*/
 	list-style-type: none;
 }
 
@@ -37,11 +47,11 @@ li a {
   	padding-left: 30px;
   	margin-top: 0px;
 }
-img{
+img{	/*Here I used float left on my image to get my text to wrap the right side of the image*/
 	float: left;
  	padding: 0 20px 20px 0;
 }
-#content ul{
+#content ul{	/*This was used to get the custom bullet point on the ul in the content section*/
 	list-style-image: url(marker.gif);
 	min-width: 250px;
 	width: 70%;
@@ -52,14 +62,14 @@ p{
 	width: 70%;
 }
 
-nav ul {
-	float: left;
+nav ul {	/*All the lines including nav determine characteristics for the nav*/
+	float: left;	/*Floating it the the left make it the leftmost element*/
 	font-size: 1.2em;
 	font-weight: bold;
 	width: 200px;
 	margin: auto;
 }
-nav ul li:first-child{
+nav ul li:first-child{ /*This gives the small space between the first nav element and the header*/
 	margin-top: 10px;
 }
 nav a:visited {
@@ -69,8 +79,8 @@ nav a:hover {
 	color: #FFFFFF;
 }
 
-h1 {
-	background-image: url(sunset.jpg);
+h1 {	/*This styles the main header. The background image is floated right and not repeated and the*/
+	background-image: url(sunset.jpg); /*background color is set to a solid color to give a smooth transition*/
 	background-position: right;
 	color: #FFFFFF;
 	background-color: #000033;
