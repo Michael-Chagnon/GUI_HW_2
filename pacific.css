@@ -33,10 +33,6 @@ li a {
 
 #content{
 	background-color: #FFFFFF;
-	/* margin-left: 200px;
-	margin-right: -2000px;
-	width: 100%;
-	min-width: 300px; */
 	margin-left: 180px;
   	padding-left: 30px;
   	margin-top: 0px;
@@ -104,7 +100,6 @@ footer {
 	background-color: #FFFFFF;
 	margin-left: 180px;
 	padding: 20px;
-	/* width: 90%; */
 	font-family: Georgia, "Times New Roman", serif;
 }
 
